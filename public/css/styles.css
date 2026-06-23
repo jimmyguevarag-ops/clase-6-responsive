@@ -1,0 +1,19 @@
+body {
+  background-color: #3498db;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    background-color: yellow;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: blue;
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

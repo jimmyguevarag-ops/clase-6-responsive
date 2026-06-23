@@ -1,0 +1,24 @@
+$colorMain: #3498db;
+
+// Desktop
+body {
+  background-color: $colorMain;
+  font-size: 20px;
+}
+
+// Tablet
+@media only screen and (max-width: 1023px) {
+  body {
+    background-color: yellow;
+    font-size: 18px;
+  }
+}
+
+// Movil
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: blue;
+    font-size: 18px;
+    // font-size: 13px;
+  }
+}
